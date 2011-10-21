@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebDeployer.Web", "WebDeployer.Web\WebDeployer.Web.csproj", "{B96EFAF5-AC24-4E55-922F-E60D921A5998}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebDeployer.Model", "WebDeployer.Model\WebDeployer.Model.csproj", "{52B70BBB-7903-4EF1-A002-35C1D0A7915A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebDeployer.Data", "WebDeployer.Data\WebDeployer.Data.csproj", "{0CADAFE9-386D-464C-8F2B-9E7029E20108}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebDeployer.Deployer", "WebDeployer.Deployer\WebDeployer.Deployer.csproj", "{CEC5B52F-4A3B-47C2-A92E-A07EE4951AE2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{72E03CA6-B013-429D-8CBC-B371CD50C9A3}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+		WebDeployer.vsmdi = WebDeployer.vsmdi
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebDeployer.Test", "WebDeployer.Test\WebDeployer.Test.csproj", "{988D8764-72BD-4B5F-B67D-6CC24554D7C5}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = WebDeployer.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B96EFAF5-AC24-4E55-922F-E60D921A5998}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B96EFAF5-AC24-4E55-922F-E60D921A5998}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B96EFAF5-AC24-4E55-922F-E60D921A5998}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B96EFAF5-AC24-4E55-922F-E60D921A5998}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52B70BBB-7903-4EF1-A002-35C1D0A7915A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52B70BBB-7903-4EF1-A002-35C1D0A7915A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52B70BBB-7903-4EF1-A002-35C1D0A7915A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52B70BBB-7903-4EF1-A002-35C1D0A7915A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CADAFE9-386D-464C-8F2B-9E7029E20108}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CADAFE9-386D-464C-8F2B-9E7029E20108}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CADAFE9-386D-464C-8F2B-9E7029E20108}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CADAFE9-386D-464C-8F2B-9E7029E20108}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEC5B52F-4A3B-47C2-A92E-A07EE4951AE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEC5B52F-4A3B-47C2-A92E-A07EE4951AE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEC5B52F-4A3B-47C2-A92E-A07EE4951AE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEC5B52F-4A3B-47C2-A92E-A07EE4951AE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{988D8764-72BD-4B5F-B67D-6CC24554D7C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{988D8764-72BD-4B5F-B67D-6CC24554D7C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{988D8764-72BD-4B5F-B67D-6CC24554D7C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{988D8764-72BD-4B5F-B67D-6CC24554D7C5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
